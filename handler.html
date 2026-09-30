@@ -1,0 +1,53 @@
+<?php
+/**
+ * Frill Monarch — form handler for contact messages, newsletter sign-ups and order requests.
+ * Works on any PHP host with mail() enabled. Change $to to the inbox that should receive messages.
+ */
+header('Content-Type: application/json; charset=utf-8');
+header('X-Content-Type-Options: nosniff');
+
+$to   = 'hello@frillmonarch.com';
+$from = 'no-reply@frillmonarch.com';
+
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') { http_response_code(405); echo json_encode(['ok' => false, 'error' => 'Method not allowed']); exit; }
+
+function clean($v, $max = 2000) {
+  $v = trim((string)$v);
+  $v = str_replace(["\r\n", "\r"], "\n", $v);
+  $v = strip_tags($v);
+  return mb_substr($v, 0, $max);
+}
+function no_headers($v) { return str_replace(["\n", "\r", "%0a", "%0d"], ' ', $v); }
+
+$type  = clean($_POST['type'] ?? '', 20);
+$email = filter_var(clean($_POST['email'] ?? '', 200), FILTER_VALIDATE_EMAIL);
+if (!$email || !in_array($type, ['contact', 'newsletter', 'order'], true)) { http_response_code(422); echo json_encode(['ok' => false, 'error' => 'Invalid request']); exit; }
+if (!empty($_POST['website'])) { echo json_encode(['ok' => true]); exit; } // honeypot
+
+switch ($type) {
+  case 'newsletter':
+    $subject = 'New Frill Monarch letter sign-up';
+    $body = "New newsletter sign-up: $email\nDate: " . date('c');
+    break;
+  case 'contact':
+    $name = clean($_POST['name'] ?? '', 120);
+    $subject = 'Website message: ' . clean($_POST['topic'] ?? 'General', 80);
+    $body = "Name: $name\nEmail: $email\nOrder number: " . clean($_POST['order'] ?? '-', 40) . "\n\n" . clean($_POST['message'] ?? '', 5000);
+    break;
+  case 'order':
+    $ref = clean($_POST['ref'] ?? '', 20);
+    $subject = "Order request $ref";
+    $body = "Order request $ref\n\n" . clean($_POST['items'] ?? '', 4000) .
+            "\n\nSubtotal: " . clean($_POST['subtotal'] ?? '') . "\nShipping (" . clean($_POST['shipping'] ?? '') . "): " . clean($_POST['shippingCost'] ?? '') .
+            "\nEstimated tax: " . clean($_POST['tax'] ?? '') . "\nTotal: " . clean($_POST['total'] ?? '') .
+            "\n\nName: " . clean($_POST['name'] ?? '', 120) . "\nEmail: $email\nPhone: " . clean($_POST['phone'] ?? '', 40) .
+            "\nShip to: " . clean($_POST['address'] ?? '', 300) . "\nNotes: " . clean($_POST['notes'] ?? '-', 1000);
+    break;
+}
+
+$headers  = 'From: Frill Monarch <' . $from . ">\r\n";
+$headers .= 'Reply-To: ' . no_headers($email) . "\r\n";
+$headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+$ok = @mail($to, no_headers($subject), $body, $headers);
+echo json_encode(['ok' => (bool)$ok]);

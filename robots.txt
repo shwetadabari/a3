@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /bag.html
+Disallow: /wishlist.html
+Disallow: /handler.php
+
+Sitemap: https://frillmonarch.com/sitemap.xml
